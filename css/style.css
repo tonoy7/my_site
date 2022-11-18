@@ -356,7 +356,9 @@ button {
 .banner_section {
     width: 100%;
     float: left;
-    padding-bottom: 445px;
+    padding-bottom: 490px;
+    padding-top: 100px;
+    height: 220px;
 }
 
 .banner_taital {
@@ -368,14 +370,16 @@ button {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Righteous', Regular;
+    letter-spacing: 10px
 }
 
 .banner_text {
     width: 63%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 26px;
     color: #ffffff;
     text-align: center;
+    line-height: 40px;
 }
 
 .read_bt {
