@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dntocume</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container-topics{
+            padding-top: 100px;
+            margin: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+            grid-gap: 10px;
+            
+        }
+        .boxes-topics{
+           display:  flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items:center ;
+        }
+        .box-topics{
+         
+            width: 80%;
+            text-align: center;
+            border:none;
+            border-radius: 15px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding:10px;
+        }
+        .thumbnail-topics{
+            border:none;
+            border-radius: 10px;
+            padding: o
+            0px;
+            overflow: hidden;
+        }
+        .thumbnail-topics img{
+            width: 100%;
+        }
+        .detail-topics{
+            text-align: justify;
+        }
+        .read-more-button{
+            border: 2px solid rgb(255, 1, 179);
+            border-radius: 30px;
+            margin-top: 20px;
+            padding: 5px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-topics">
+        <div class="boxes-topics">
+            <div class="box-topics">
+                <div class="thumbnail-topics">
+                    <img src="/images/topic-img-2.jpg" alt="micro chip thumbnail">
+                </div>
+                <div class="info-topics">
+                    <h1 class="title-topics">
+                        Micro chip
+                    </h1>
+                    <p class="detail-topics">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design); authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimization....</p>
+                </div>
+            </div>
+             <div class="read-more-button">
+                read more
+               </div>
+            </div> 
+    </div>
+           
+</body>
+</html>
