@@ -538,7 +538,12 @@
         width: 100%;
     }
     .banner_section {
-        padding: 50px 0px;
+        padding: 55px 0px;
+        
+    }
+    .banner_text{
+        font-size: 18px;
+        line-height: 30px;
     }
     .Socials_section {
         padding: 50px 0px;
@@ -580,9 +585,11 @@
     .play_icon {
         width: 145px;
     }
+    
     .client_section_2 {
         padding: 30px 20px;
         margin-top: 50px;
+        
     }
     .client_main {
         display: inherit;
